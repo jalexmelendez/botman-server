@@ -1,0 +1,18 @@
+{
+    "require": {
+        "symfony/config": "^7.1",
+        "symfony/http-kernel": "^7.1",
+        "symfony/http-foundation": "^7.1",
+        "symfony/routing": "^7.1",
+        "symfony/dependency-injection": "^7.1",
+        "symfony/framework-bundle": "^7.1",
+        "botman/botman": "^2.8",
+        "nelmio/cors-bundle": "^2.5",
+        "botman/driver-web": "^1.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
